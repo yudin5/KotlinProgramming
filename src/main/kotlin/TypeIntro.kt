@@ -12,11 +12,11 @@ fun main() {
     val message = "MAX_EXPERIENCE = $MAX_EXPERIENCE"
     println(message) // Константа времени компиляции
 
-    var hasSteed: Boolean = false  // Быть хозяином скакуна
+    var hasSteed = false  // Быть хозяином скакуна
     println("hasSteed = $hasSteed")
 
     val tavernName = "Unicorn Horn"  // Название таверны
-    println("taventName = $tavernName")
+    println("tavernName = $tavernName")
 
     val innkeeperName = "Josh"  // Имя трактирщика
     println("innkeeperName = $innkeeperName")
@@ -31,7 +31,7 @@ fun main() {
     hasSteed = true
     println("moneyAmount = $moneyAmount, hasSteed = $hasSteed, drink list size = ${drinkList.size}")
 
-    val playerNameAfterMagicMirror: String = playerName.reversed()  // Применяем волшебное зеркало, отображающее имя наоборот
+    val playerNameAfterMagicMirror = playerName.reversed()  // Применяем волшебное зеркало, отображающее имя наоборот
     println("playerName = $playerName, playerNameAfterMagicMirror = $playerNameAfterMagicMirror")
 
 }
