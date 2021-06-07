@@ -34,4 +34,10 @@ fun main() {
     val playerNameAfterMagicMirror = playerName.reversed()  // Применяем волшебное зеркало, отображающее имя наоборот
     println("playerName = $playerName, playerNameAfterMagicMirror = $playerNameAfterMagicMirror")
 
+    val x0 = "ab"
+    val x1 = x0 + "c"
+    val x2 = "abc"
+    println("x1 == x2 = ${x1 == x2}")
+    println("x1 === x2 = ${x1 === x2}")
+
 }
