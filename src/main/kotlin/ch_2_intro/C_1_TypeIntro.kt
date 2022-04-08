@@ -1,3 +1,5 @@
+package ch_1_first_app
+
 const val MAX_EXPERIENCE: Int = 5000
 
 fun main() {
@@ -9,7 +11,7 @@ fun main() {
     playerName = "Madrigal"
     println("playerName = $playerName")
 
-    val message = "MAX_EXPERIENCE = $MAX_EXPERIENCE"
+    val message = "chapter_1_first_app.MAX_EXPERIENCE = $MAX_EXPERIENCE"
     println(message) // Константа времени компиляции
 
     var hasSteed = false  // Быть хозяином скакуна
